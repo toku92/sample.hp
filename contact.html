@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cofe HP</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="image/color-ball.svg" alt="kibel_logo">
+            </a>
+        </div>
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="menu.html">
+                        Menu
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="main">
+        <h1 class="h1-contact">
+            Contact us
+        </h1>
+        <form action="#" method="GET">
+            <table border="1">
+                <tr>
+                    <th>氏名</th>
+                    <td>
+                        <input type="text" name="name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <th>連絡先</th>
+                    <td>
+                        <input type="email" name="email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <th>人数</th>
+                    <td>
+                        <select>
+                            <option value="0">
+                                  0 人
+                            </option>
+                            <option value="1">
+                                  1 人
+                            </option>
+                            <option value="2">
+                                  2 人
+                            </option>
+                            <option value="3">
+                                  3 人
+                            </option>
+                            <option value="4">
+                                  4 人
+                            </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>日時</th>
+                    <td>
+                        <input type="datetime-local">
+                    </td>
+                </tr>
+                <tr>
+                    <th>備忘録</th>
+                    <td>
+                        <textarea name="memo" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" name="button" value="送信" class="btn">
+        </form>
+    </div>
+    <footer>
+        Copyright Abridge,Inc. All Rights Reserved.
+    </footer>
+</body>
+
+</html>
